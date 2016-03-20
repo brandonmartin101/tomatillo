@@ -1,0 +1,25 @@
+h1 {
+  margin-bottom: 1em;
+}
+
+span.bar {
+  display: inline-block;
+  width: 10px;
+  height: 57px;
+  border: 1px solid black;
+  background-color: black;
+  margin: 0 50px;
+}
+
+#pom-time {
+  font-size: 60pt;
+}
+
+@keyframes spinny {
+  0%   { transform: rotate(0deg);   }
+  50%  { transform: rotate(90deg);  }
+  100% { transform: rotate(180deg); }
+}
+.pom-animation {
+  animation: spinny 2s infinite;
+}
